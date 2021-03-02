@@ -31,14 +31,14 @@
     
   }
   
-  label {
+  p {
     margin: 10px;
   }
   
   
   #btn , #btn2{
     background-color: DodgerBlue; 
-    width: 70%;
+    width: 100%;
     margin: 10px 0;
     border: 2px solid orange;
     height: 50px;
