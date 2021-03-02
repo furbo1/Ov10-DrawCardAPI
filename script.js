@@ -54,7 +54,7 @@ function dealCardsDealer(){
       dlrSCard.setAttribute("src",secondCardPic )
     
      
-     totalDlr.innerHTML = CheckValueAndReturnTotal(entries[0][1].value,entries[1][1].value)
+     totalDlr.innerHTML = ` Total: ${CheckValueAndReturnTotal(entries[0][1].value,entries[1][1].value)} `
     })
     
 }
@@ -72,7 +72,7 @@ function dealCardsPlayer(){
      let secondCardPic = data.cards[1].image
      plrFCard.setAttribute("src",firstCardPic )
       plrSCard.setAttribute("src",secondCardPic )
-     totalPlr.innerHTML = CheckValueAndReturnTotal(entries[0][1].value,entries[1][1].value)
+     totalPlr.innerHTML = ` Total: ${CheckValueAndReturnTotal(entries[0][1].value,entries[1][1].value)} `
      
     })
     
