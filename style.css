@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    display:flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items:center;
+    background: #CAE9FF;
+    font-size: 24px; 
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:100%;
+    min-height: 100%;
+    flex: 1 0 auto;
+    
+  }
+  
+  label {
+    margin: 10px;
+  }
+  
+  
+  #btn , #btn2{
+    background-color: DodgerBlue; 
+    width: 70%;
+    margin: 10px 0;
+    border: 2px solid orange;
+    height: 50px;
+    max-width: 500px;
+    color: white; 
+    font-size: 20px; 
+    border-radius: 0 10px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer; 
+  
+  }
+  #btn:hover {
+    transform: scale(1.05)
+  }
+  
+  .displayGame{
+    display: none;
+  }
+  #dealer {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #player {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+  }
+  
+  #firstCard, #secondCard{
+    width: 200px;
+    hieght: 350px;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
